@@ -11,6 +11,15 @@ Plutus uses Smarty for parsing templates and rendering the results to the web br
 
 ## Common Templates
 
+A number of templates are symlinked in from ../../common and live are available from
+https://github.com/jacques/common-smarty-templates
+
+To clone the common template repo from the command line:
+
+```
+git clone https://github.com/jacques/common-smarty-templates.git
+```
+
 | Template                   | Notes                                                                              |
 | -------------------------- | ---------------------------------------------------------------------------------- |
 | _partials/header-bsfa.tpl  | Includes Bootstrap 3.3.5 and Font Awesome 4.4.0 Stylesheets                        |
