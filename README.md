@@ -20,11 +20,13 @@ To clone the common template repo from the command line:
 git clone https://github.com/jacques/common-smarty-templates.git
 ```
 
-| Template                   | Notes                                                                              |
-| -------------------------- | ---------------------------------------------------------------------------------- |
-| _partials/header-bsfa.tpl  | Includes Bootstrap 3.3.5 and Font Awesome 4.4.0 Stylesheets                        |
-| _partials/header-csrf.tpl  | Used for jquery-rails-ui to have the CSRF token for POST, PUT and DELETE requests. |
-| _partials/header-shims.tpl | Includes HTML5 Shim and Respond.js for IE8                                         |
+| Template                        | Notes                                                                              |
+| ------------------------------- | ---------------------------------------------------------------------------------- |
+| _partials/header-bsfa.tpl       | Includes Bootstrap 3.3.5 and Font Awesome 4.4.0 Stylesheets                        |
+| _partials/header-csrf.tpl       | Used for jquery-rails-ui to have the CSRF token for POST, PUT and DELETE requests. |
+| _partials/header-shims.tpl      | Includes HTML5 Shim and Respond.js for IE8                                         |
+| _partials/footer-datepicker.tpl | Includes Bootstrap Datepicker javascript                                           |
+| _partials/footer-jqbs.tpl       | Includes Bootstrap 3.3.5 and jQuery 2.1.4 javascript                               |
 
 ## Quick Start Guide
 
@@ -36,4 +38,8 @@ Including another template:
 
 ## License
 
-The Plutus Demo Theme is licensed under the MPL v.2.0
+The Demo Theme for Plutus is licensed under the [MPL v.2.0](LICENSE).
+These templates are distributed under the License is distributed
+on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+either express or implied. See the License for the specific language
+governing permissions and limitations under the License.
