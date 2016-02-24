@@ -118,6 +118,5 @@ $(function() {
 </script>
 {/literal}
 {/if}
-{include file="_partials/gauges.tpl"}
   </body>
 </html>
