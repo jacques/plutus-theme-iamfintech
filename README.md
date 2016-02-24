@@ -9,7 +9,9 @@ Plutus uses Smarty for parsing templates and rendering the results to the web br
 | /accounts/UUID/statements   | account__statements.tpl   | Shows the user the links for downloadable statements.    |
 | /accounts/UUID/transactions | account__transactions.tpl | Shows the transactions that have occurred on an account. |
 | /login                      | login.tpl                 | Login Page -- shown to users before they login           |
+| /settings                   | settings.tpl              | Change your password page.                               |
 | /settings/autoload          | settings__autoload.tpl    | Configures the users autoload settings.                  |
+| /settings/tfa               | settings__tfa.tpl         | Two Factor Authentication settings                       |
 | /sms                        | sms.tpl                   | SMS Sending page                                         |
 | /transfer                   | transfer.tpl              | Interaccount transfer                                    |
 
