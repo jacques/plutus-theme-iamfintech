@@ -91,7 +91,6 @@
 
 {include file="_partials/footer-jqbs.tpl"}
     <script src="/vendor/jquery-ujs/src/rails.js"></script>
-{include file="_partials/gauges.tpl"}
 {literal}
 <script>
 $(function(){
