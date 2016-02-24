@@ -6,8 +6,12 @@ Plutus uses Smarty for parsing templates and rendering the results to the web br
 | URL                         | Template                  | Notes                                                    |
 | --------------------------- | ------------------------- | -------------------------------------------------------- |
 | /accounts                   | accounts.tpl              | User dashboard that shows their accounts                 |
-| /accounts/uuid/transactions | account__transactions.tpl | Shows the transactions that have occurred on an account. |
+| /accounts/UUID/statements   | account__statements.tpl   | Shows the user the links for downloadable statements.    |
+| /accounts/UUID/transactions | account__transactions.tpl | Shows the transactions that have occurred on an account. |
 | /login                      | login.tpl                 | Login Page -- shown to users before they login           |
+| /settings/autoload          | settings__autoload.tpl    | Configures the users autoload settings.                  |
+| /sms                        | sms.tpl                   | SMS Sending page                                         |
+| /transfer                   | transfer.tpl              | Interaccount transfer                                    |
 
 ## Common Templates
 
