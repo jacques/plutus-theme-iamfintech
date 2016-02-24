@@ -14,6 +14,7 @@
 {include file="_partials/header-bsfa.tpl"}
     <link href="/css/demo.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto" rel="stylesheet">
+    <link type="text/plain" rel="author" href="/humans.txt">
 
 {include file="_partials/header-shims.tpl"}
   </head>
@@ -21,11 +22,11 @@
     <div class="container">
       <div class="header hidden-print">
         <ul class="nav nav-pills pull-right">
-          <li{if preg_match("!\/accounts?.+!", $smarty.server.REQUEST_URI)} class="active"{/if}><a href="/accounts">Accounts</a></li>
-          <li{if preg_match("!\/transfer?.+!", $smarty.server.REQUEST_URI)} class="active"{/if}><a href="/transfer">Transfer</a></li>
-          <li{if preg_match("!\/beneficiaries?.+!", $smarty.server.REQUEST_URI)} class="active"{/if}><a href="/beneficiaries">Pay Beneficiary</a></li>
+          <li{if $nav == "accounts"} class="active"{/if}><a href="/accounts">Accounts</a></li>
+          <li{if $nav == "transfer"} class="active"{/if}><a href="/transfer">Transfer</a></li>
+          <li{if $nav == "beneficiaries"} class="active"{/if}><a href="/beneficiaries">Pay Beneficiary</a></li>
 {if $globals.features.prepaid}
-          <li class="dropdown{if preg_match("!\/prepaid?.+!", $smarty.server.REQUEST_URI)} active{/if}">
+          <li class="dropdown{if $nav == "prepaid"} active{/if}">
             <a class="dropdown-toggle"
               data-toggle="dropdown"
               href="#">
@@ -39,7 +40,7 @@
           </li>
 {/if}
 {if $globals.features.sms}
-          <li{if preg_match("!\/sms?.+!", $smarty.server.REQUEST_URI)} class="active"{/if}><a href="/sms">SMS</a></li>
+          <li{if $nav == "sms"} class="active"{/if}><a href="/sms">SMS</a></li>
 {/if}
 {if $smarty.session.show_biztools}
           <li class="dropdown{if preg_match("!\/(agency?|debitorders?|payrolls?).+!", $smarty.server.REQUEST_URI)} active{/if}">
@@ -62,7 +63,7 @@
             </ul>
           </li>
 {/if}
-          <li class="dropdown{if preg_match("!\/settings?.+!", $smarty.server.REQUEST_URI)} active{/if}">
+          <li class="dropdown{if $nav == "settings"} active{/if}">
             <a class="dropdown-toggle"
               data-toggle="dropdown"
               href="#">
@@ -78,6 +79,9 @@
           </li>
 {if $smarty.session.is_agent}
           <li><a href="/agent"><i class="fa fa-wrench"></i> Agent</a></li>
+{/if}
+{if $smarty.session.is_admin}
+          <li><a href="/admin"><i class="fa fa-cogs"></i> Basecamp</a></li>
 {/if}
           </li>
           <li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
