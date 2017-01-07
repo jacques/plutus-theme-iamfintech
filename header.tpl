@@ -1,3 +1,12 @@
+{*
+ * Common header
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Copyright 2014-2017 Jacques Marneweck.  All rights strictly reserved.
+ *}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Jacques Marneweck // www.leopardrock.com">
-    <meta name="copyright" content="2014-2015 Jacques Marneweck.  All rights strictly reserved.">
+    <meta name="copyright" content="2014-2017 Jacques Marneweck.  All rights strictly reserved.">
     <meta name="csrf-token" content="{$csrf_token}">
     <meta name="csrf-param" content="{$csrf_key}">
 
