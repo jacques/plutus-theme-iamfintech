@@ -5,6 +5,7 @@ Plutus uses Smarty for parsing templates and rendering the results to the web br
 
 | URL                         | Template                  | Notes                                                    |
 | --------------------------- | ------------------------- | -------------------------------------------------------- |
+| non existant urls           | 404.tpl                   | File not found page                                      |
 | /accounts                   | accounts.tpl              | User dashboard that shows their accounts                 |
 | /accounts/UUID/statements   | account__statements.tpl   | Shows the user the links for downloadable statements.    |
 | /accounts/UUID/transactions | account__transactions.tpl | Shows the transactions that have occurred on an account. |
