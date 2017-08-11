@@ -2,19 +2,22 @@
 
 This theme is a starting point for building your theme for Plutus.  Please note that
 Plutus uses Smarty for parsing templates and rendering the results to the web browser.
+Generally the demo theme is way out of date and is in the progress of being brought
+up to date again.
 
-| URL                         | Template                  | Notes                                                    |
-| --------------------------- | ------------------------- | -------------------------------------------------------- |
-| non existant urls           | 404.tpl                   | File not found page                                      |
-| /accounts                   | accounts.tpl              | User dashboard that shows their accounts                 |
-| /accounts/UUID/statements   | account__statements.tpl   | Shows the user the links for downloadable statements.    |
-| /accounts/UUID/transactions | account__transactions.tpl | Shows the transactions that have occurred on an account. |
-| /login                      | login.tpl                 | Login Page -- shown to users before they login           |
-| /settings                   | settings.tpl              | Change your password page.                               |
-| /settings/autoload          | settings__autoload.tpl    | Configures the users autoload settings.                  |
-| /settings/tfa               | settings__tfa.tpl         | Two Factor Authentication settings                       |
-| /sms                        | sms.tpl                   | SMS Sending page                                         |
-| /transfer                   | transfer.tpl              | Interaccount transfer                                    |
+| URL                         | Template                  | Notes                                                                             |
+| --------------------------- | ------------------------- | --------------------------------------------------------------------------------- |
+| non existant urls           | 404.tpl                   | File not found page                                                               |
+| /accounts                   | accounts.tpl              | User dashboard that shows their accounts                                          |
+| /accounts/UUID/statements   | account__statements.tpl   | Shows the user the links for downloadable statements.                             |
+| /accounts/UUID/transactions | account__transactions.tpl | Shows the transactions that have occurred on an account.                          |
+| /login                      | login.tpl                 | Login Page -- shown to users before they login                                    |
+| /prepaid/airtime            | prepaid__airtime.tpl      | Prepaid Airtime page -- used to show networks and vouchers available for purchase |
+| /settings                   | settings.tpl              | Change your password page.                                                        |
+| /settings/autoload          | settings__autoload.tpl    | Configures the users autoload settings.                                           |
+| /settings/tfa               | settings__tfa.tpl         | Two Factor Authentication settings                                                |
+| /sms                        | sms.tpl                   | SMS Sending page                                                                  |
+| /transfer                   | transfer.tpl              | Interaccount transfer                                                             |
 
 ## Common Templates
 
