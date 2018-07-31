@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2017 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2018 Jacques Marneweck.  All rights strictly reserved.
  *}
 {include file="session__header.tpl" title="Transfer OTP Confirmation" nav="transfer"}
 
@@ -16,6 +16,7 @@
 <p>
 <form action="/transfer" method="post" class="form-horizontal" role="form">
     {include file="_partials/csrf.tpl"}
+    {include file="_partials/utf8.tpl"}
     <div class="form-group">
         <label for="inputName" class="col-sm-2 control-label">Enter code from SMS</label>
         <div class="col-sm-10">
