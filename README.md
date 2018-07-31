@@ -22,6 +22,8 @@ up to date again.
 | /transfer                   | transfer.tpl              | Interaccount transfer                                                             |
 | /transfer                   | transfer__otp.tpl         | Template that is used when an OTP is requested to complete the transfer.          |
 
+---
+
 ## Common Templates
 
 A number of templates are symlinked in from ../../common and live are available from
@@ -41,18 +43,30 @@ git clone https://github.com/jacques/common-smarty-templates.git
 | _partials/footer-datepicker.tpl | Includes Bootstrap Datepicker javascript                                           |
 | _partials/footer-jqbs.tpl       | Includes Bootstrap 3.3.7 and jQuery 2.1.4 javascript                               |
 
+---
+
 ## Quick Start Guide
 
-Including another template:
+I use Smarty for the template engine for rendering HTML for Plutus.  Here are some
+notes on how to use Smarty.
+
+Including another template (with example of setting template variables):
 
 ```
-{include file="header.tpl" nav="home"}
+{include file="header.tpl" nav="home" bootstrap_version="3.3.7"}
 ```
-
 
 ```
 {include file="footer.tpl"}
 ```
+
+Assign a variable:
+
+```
+{assign var="totals" value=0}
+```
+
+---
 
 ## License
 
