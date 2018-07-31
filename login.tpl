@@ -19,7 +19,7 @@
     <meta name="keywords" content="demo, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="Demo Theme &mdash; Your Slogan Goes Here!">
     <title>Demo Theme &mdash; Your Slogan Goes Here!</title>
-{include file="_partials/header-bsfa.tpl"}
+{include file="_partials/header-bsfa.tpl" bootstrap_version="3.3.7"}
     <link href="/css/demo.css" rel="stylesheet">
 
     <script type="text/javascript">
@@ -89,7 +89,7 @@
       </footer>
     </div>
 
-{include file="_partials/footer-jqbs.tpl"}
+{include file="_partials/footer-jqbs.tpl" bootstrap_version="3.3.7"}
     <script src="/vendor/jquery-ujs/src/rails.js"></script>
 {literal}
 <script>
