@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2018 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
  *}
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +14,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="Jacques Marneweck // www.leopardrock.com">
-    <meta name="copyright" content="2014-2018 Jacques Marneweck.  All rights strictly reserved.">
+    <meta name="author" content="Jacques Marneweck // www.siberia.co.za">
+    <meta name="copyright" content="2014-2019 Jacques Marneweck.  All rights strictly reserved.">
     <meta name="keywords" content="demo, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="Demo Theme &mdash; Your Slogan Goes Here!">
     <title>Demo Theme &mdash; Your Slogan Goes Here!</title>
@@ -80,7 +80,7 @@
 <div>
 
       <footer>
-        <p>&copy; 2014&mdash;2018 Demo Theme (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Demo Theme (Pty) Ltd is a juristic representative of FSP XXXX. Call Centre: 08610 XXXXX.
+        <p>&copy; 2014&mdash;2019 Demo Theme (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Demo Theme (Pty) Ltd is a juristic representative of FSP XXXX. Call Centre: 08610 XXXXX.
         </p>
 
         <p>
