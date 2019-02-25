@@ -22,6 +22,17 @@ up to date again.
 | /transfer                   | transfer.tpl              | Interaccount transfer                                                             |
 | /transfer                   | transfer__otp.tpl         | Template that is used when an OTP is requested to complete the transfer.          |
 
+
+---
+
+## Modals
+
+Modals which are included reside under ```_modals```.
+
+| Template                                     |
+| -------------------------------------------- |
+| _modals/notification__of__payment__email.tpl | 
+
 ---
 
 ## Common Templates
