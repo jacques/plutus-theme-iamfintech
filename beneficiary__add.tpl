@@ -5,12 +5,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2017 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
  *}
 {include file="header.tpl" title="Add Beneficiary" nav="beneficiaries"}
 
       <div>
-        <h2 class="page-header">Add beneficiary</h2>
+        <h2 class=page-header">Add beneficiary</h2>
+
+        <hr />
       </div>
 
       <div>
@@ -78,13 +80,25 @@
   <div class="form-group">
     <label for="inputYourReference" class="col-sm-2 control-label">Your Reference</label>
     <div class="col-sm-10">
-      <input type="text" name="reference1" class="form-control" id="inputYotYourReferencee" placeholder="Your Reference"{if isset($reference1)} value="{$reference1|escape}"{/if}>
+      <input type="text" name="reference1" class="form-control" id="inputYourReference" placeholder="Your Reference"{if isset($reference1)} value="{$reference1|escape}"{/if}>
     </div>
   </div>
   <div class="form-group">
     <label for="inputTheirReference" class="col-sm-2 control-label">Their Reference</label>
     <div class="col-sm-10">
       <input type="text" name="reference2" class="form-control" id="inputTheirReference" placeholder="Their Reference"{if isset($reference2)} value="{$reference2|escape}"{/if}>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputNotificationEmail" class="col-sm-2 control-label">Notification Email Address</label>
+    <div class="col-sm-10">
+      <input type="text" name="notification_email_address" class="form-control" id="inputNotificationEmail" placeholder="Notification Email Address"{if isset($notification_email_address)} value="{$notification_email_address|escape}"{/if}>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputNotificationMobileNumber" class="col-sm-2 control-label">Notification SMS Phone Number</label>
+    <div class="col-sm-10">
+      <input type="text" name="notification_mobile_number" class="form-control" id="inputNotificationMobileNumber" placeholder="Notification SMS Phone Number"{if isset($notification_mobile_number)} value="{$notification_mobile_number|escape}"{/if}>
     </div>
   </div>
   <div class="form-group">
