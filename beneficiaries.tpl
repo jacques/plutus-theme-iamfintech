@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2017 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
  *}
 {include file="header.tpl" title="Beneficiaries Page" nav="beneficiaries"}
 
@@ -44,9 +44,14 @@
               <td><input type="hidden" name="beneficiary[]" value="{$row.id}" /><input type="text" name="reference1[]" value="{$row.reference1}"></td>
               <td><input type="text" name="reference2[]" value="{$row.reference2}"></td>
               <td><input type="text" name="amount[]" value="0.00"></td>
-              <td><a href="#">Payment History</a> &bull; <a href="/beneficiaries/{$row.id}" data-method="DELETE" rel="nofollow" data-confirm="Are you sure you want to delete this beneficiary?">Delete</a></td>
+              <td>{*<a href="#">Payment History</a> &bull;*} <a href="/beneficiaries/{$row.id}" data-method="DELETE" rel="nofollow" data-confirm="Are you sure you want to delete this beneficiary?">Delete</a></td>
+            </tr>
+{foreachelse}
+            <tr>
+              <td colspan="5">You presently do not have any beneficiaries defined.  <a href="/beneficiaries/add">Create your first beneficiary</a>.</td>
             </tr>
 {/foreach}
+{if sizeof($beneficiaries) > 0}
             <tr>
              <td>&nbsp;</td>
              <td>{if $smarty.session.fica_status ne 0}Pay from account:{/if}</td>
@@ -67,11 +72,12 @@
 {/if}
 </td>
 <td>
-{if $smarty.session.fica_status ne 0}
+{if $smarty.session.fica_status ne 0 && !in_array($smarty.session.user_status, ['ficalocked','ficlocked'])}
 <input type="submit" class="btn btn-primary" value="Pay Beneficiaries" />
 {/if}
 </td>
             </tr>
+{/if}
           </tbody>
         </table>
 {if $smarty.session.fica_status ne 0}
@@ -79,6 +85,32 @@
 {include file="_partials/fica_notice_transact.tpl"}
 {/if}
 </form>
+
+<h4>Last 10 Payments (off us)</h4>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Beneficiary Name</th>
+      <th>Amount Paid</th>
+      <th>Instruction Received</th>
+      <th class="hidden-print">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+{foreach $previouspayments item=row}
+    <tr>
+      <td>{$row.name}</td>
+      <td>ZAR {($row.amount/100)|string_format:"%0.2f"}</td>
+      <td>{$row.queued_at|datetz}</td>
+      <td class="hidden-print">
+        <a class="btn btn-primary" href="/beneficiaries/proofofpayment/{$row.txn_ref}"><i class="fa fa-fw fa-download"></i> Download Proof of Payment</a>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#notificationOfPaymentModal" data-txnref="{$row.txn_ref}"><i class="fa fa-fw fa-send"></i> Email Proof of Payment</button>
+      </td>
+    </tr>
+{/foreach}
+  </tbody>
+</table>
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -143,4 +175,5 @@
 
       </div>
 
+{include file="_modals/notification__of__payment__email.tpl"}
 {include file="footer.tpl"}
