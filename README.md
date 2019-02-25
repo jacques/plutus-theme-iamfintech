@@ -3,7 +3,7 @@
 This theme is a starting point for building your theme for Plutus.  Please note that
 Plutus uses Smarty for parsing templates and rendering the results to the web browser.
 Generally the demo theme is way out of date and is in the progress of being brought
-up to date again.
+up to date again.  At some point this will all be replaced by a single page app.
 
 | URL                         | Template                  | Notes                                                                             |
 | --------------------------- | ------------------------- | --------------------------------------------------------------------------------- |
