@@ -22,7 +22,6 @@ up to date again.
 | /transfer                   | transfer.tpl              | Interaccount transfer                                                             |
 | /transfer                   | transfer__otp.tpl         | Template that is used when an OTP is requested to complete the transfer.          |
 
-
 ---
 
 ## Modals
@@ -76,6 +75,12 @@ Assign a variable:
 ```
 {assign var="totals" value=0}
 ```
+
+---
+
+## Deprecated Mobile Theme
+
+The mobile theme has been deprecated as I never really used it and it was a stop gap for a mobile application (iOS and Android).
 
 ---
 
