@@ -15,11 +15,12 @@
 
 {include file="_partials/errors.tpl"}
 
-      <div>
-<div class="pull-right">
-  <a class="btn btn-primary" href="/beneficiaries/add">Add Beneficiary</a>
-</div>
+      <div class="page-header">
+        <div class="pull-right">
+          <a class="btn btn-primary" href="/beneficiaries/add">Add Beneficiary</a>
+        </div>
         <h3>My Beneficiaries</h3>
+      </div>
 
 
 <form method="post" accept-charset="UTF-8">
