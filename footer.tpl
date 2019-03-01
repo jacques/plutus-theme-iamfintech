@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2018 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
  *}
   <div class="container hidden-print">
     Signed in as <strong>{$smarty.session.first_name} {$smarty.session.last_name}</strong>.
