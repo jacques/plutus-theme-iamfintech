@@ -26,10 +26,10 @@
            <p>
              To deposit money into your account, you can deposit money into the following pooled account: <br />
              <br />
-             <strong>Bank:</strong> Demo Bank<br />
-             <strong>Account Number:</strong> XXXXXXXXX<br />
-             <strong>Branch Code:</strong> XXXXXX<br />
-             <strong>Reference:</strong> DEMO - YOURGOVID
+             <strong>Bank:</strong> FNB<br />
+             <strong>Account Number:</strong> 62800966684<br />
+             <strong>Branch Code:</strong> 250655<br />
+             <strong>Reference:</strong> IAM - YOURGOVID
            </p>
          </div>
 
