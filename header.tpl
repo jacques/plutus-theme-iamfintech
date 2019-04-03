@@ -96,7 +96,7 @@
           <li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
 {if !(array_key_exists('brand', $smarty.session))}
-        <h3 class="text-muted">Demo Theme</h3>
+        <h3 class="text-muted">I AM Fintech</h3>
 {else}
         <h3 class="text-muted">&nbsp;</h3>
 {/if}

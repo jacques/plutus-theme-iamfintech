@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Plutus Demo Theme &mdash; Your Monkier Goes Here &mdash; {$title}</title>
+    <title>I AM Fintech &mdash; I AM Finance &mdash; {$title}</title>
 {include file="_partials/header-bsfa.tpl"}
     <link href="/css/demo.css" rel="stylesheet">
 
@@ -26,7 +26,7 @@
         <ul class="nav nav-pills pull-right">
           <li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
-        <h3 class="text-muted">DEMO Theme{*<img src="/images/demo.png" alt="DEMO" height="75">*}</h3>
+        <h3 class="text-muted">I AM Fintech{*<img src="/images/demo.png" alt="I AM Fintech" height="75">*}</h3>
       </div>
 
       <hr />

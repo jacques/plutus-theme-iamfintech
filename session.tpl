@@ -4,12 +4,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2018 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
  *}
 {include file="session__header.tpl" title="Two-Factor Authentication"}
 
 <p>
-Please enter your Google Authenticator code for DEMO.
+Please enter your Google Authenticator code for I AM Fintech.
 </p>
 
 <p>
