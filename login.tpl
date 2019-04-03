@@ -43,7 +43,7 @@
 
     <div class="container">
       <div class="header">
-        <h3 class="text-muted signin-logo">Demo Theme</h3>
+        <h3 class="text-muted signin-logo">I AM Fintech</h3>
       </div>
 
       <div class="form-signin">

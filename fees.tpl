@@ -1,4 +1,4 @@
-{include file="session__header.tpl" title="Demo Fee Schedule"}
+{include file="session__header.tpl" title="I AM Fintech Fee Schedule"}
 
       <div>
         <h2 class="page-header">Fee Schedule</h2>
@@ -10,7 +10,7 @@
 
 <table class="table table-bordered table-striped small">
   <thead>
-    <th>Demo Freedom Wallet</th>
+    <th>I AM Fintech Freedom Wallet</th>
     <th>Amount</th>
   </thead>
   <tbody>
@@ -48,14 +48,14 @@
     </tr>
     <tr>
       <td>Merchant Payment</td>
-      <td>Depends on what was agreed to.  Contact Demo on 0861 XXX XXX for further information.</td>
+      <td>Depends on what was agreed to.  Contact I AM Fintech on 0861 XXX XXX for further information.</td>
     </tr>
   </tbody>
 </table>
 
 <table class="table table-bordered table-striped small">
   <thead>
-    <th>Demo MasterCard</th>
+    <th>FNB eWallet Pro VISA</th>
     <th>Amount</th>
   </thead>
   <tbody>

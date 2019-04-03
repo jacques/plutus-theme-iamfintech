@@ -1,9 +1,6 @@
-# Demo theme for Plutus
+# I Am Fintech theme for Plutus
 
-This theme is a starting point for building your theme for Plutus.  Please note that
-Plutus uses Smarty for parsing templates and rendering the results to the web browser.
-Generally the demo theme is way out of date and is in the progress of being brought
-up to date again.  At some point this will all be replaced by a single page app.
+At some point this will all be replaced by a single page app.
 
 | URL                         | Template                  | Notes                                                                             |
 | --------------------------- | ------------------------- | --------------------------------------------------------------------------------- |
@@ -86,7 +83,7 @@ The mobile theme has been deprecated as I never really used it and it was a stop
 
 ## License
 
-The Demo Theme for Plutus is licensed under the [MPL v.2.0](LICENSE).
+The I Am Fintech Theme for Plutus is licensed under the [MPL v.2.0](LICENSE).
 These templates are distributed under the License is distributed
 on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
 either express or implied. See the License for the specific language

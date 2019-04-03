@@ -42,15 +42,15 @@
                <select class="form-control" name="source" id="source">
 {foreach $accounts item=row}
 {if $row.account_type eq 'wallet'}
-                 <option value="{$row.uuid}"{if isset($smarty.post.source) && $smarty.post.source eq $row.uuid} selected{/if}>Demo Account &mdash; {$row.account_number} (R {($row.balance/100)|string_format:"%.2f"})</option>
+                 <option value="{$row.uuid}"{if isset($smarty.post.source) && $smarty.post.source eq $row.uuid} selected{/if}>I AM Fintech Account &mdash; {$row.account_number} (R {($row.balance/100)|string_format:"%.2f"})</option>
 {else}
 {*
-                 <option value="{$row.uuid}"{if isset($smarty.post.source) && $smarty.post.source eq $row.uuid} selected{/if}>Demo Pre-paid Debit Card &mdash; {$row.masked_cardnumber}</option>
+                 <option value="{$row.uuid}"{if isset($smarty.post.source) && $smarty.post.source eq $row.uuid} selected{/if}>I AM Fintech Pre-paid Debit Card &mdash; {$row.masked_cardnumber}</option>
 *}
 {/if}
 {/foreach}
 {foreach $business_accounts item=row}
-                 <option value="{$row.uuid}"{if isset($smarty.post.source) && $smarty.post.source eq $row.uuid} selected{/if}>Demo Business Account &mdash; {$row.account_number} (R {($row.balance/100)|string_format:"%.2f"})</option>
+                 <option value="{$row.uuid}"{if isset($smarty.post.source) && $smarty.post.source eq $row.uuid} selected{/if}>I AM Fintech Business Account &mdash; {$row.account_number} (R {($row.balance/100)|string_format:"%.2f"})</option>
 {/foreach}
       </select>
          </div>
@@ -67,13 +67,13 @@
       <select class="form-control" name="destination" id="destination">
 {foreach $accounts item=row}
 {if $row.account_type eq 'wallet'}
-                 <option value="{$row.uuid}"{if isset($smarty.post.destination) && $smarty.post.destination eq $row.uuid} selected{/if}>Demo Account &mdash; {$row.account_number} (R {($row.balance/100)|string_format:"%.2f"})</option>
+                 <option value="{$row.uuid}"{if isset($smarty.post.destination) && $smarty.post.destination eq $row.uuid} selected{/if}>I AM Fintech Account &mdash; {$row.account_number} (R {($row.balance/100)|string_format:"%.2f"})</option>
 {else}
-                 <option value="{$row.uuid}"{if isset($smarty.post.destination) && $smarty.post.destination eq $row.uuid} selected{/if}>Demo Pre-paid Debit Card &mdash; {$row.masked_cardnumber}</option>
+                 <option value="{$row.uuid}"{if isset($smarty.post.destination) && $smarty.post.destination eq $row.uuid} selected{/if}>I AM Fintech Pre-paid Debit Card &mdash; {$row.masked_cardnumber}</option>
 {/if}
 {/foreach}
 {foreach $business_accounts item=row}
-                 <option value="{$row.uuid}"{if isset($smarty.post.source) && $smarty.post.source eq $row.uuid} selected{/if}>Demo Business Account &mdash; {$row.account_number} (R {($row.balance/100)|string_format:"%.2f"})</option>
+                 <option value="{$row.uuid}"{if isset($smarty.post.source) && $smarty.post.source eq $row.uuid} selected{/if}>I AM Fintech Business Account &mdash; {$row.account_number} (R {($row.balance/100)|string_format:"%.2f"})</option>
 {/foreach}
       </select>
          </div>
