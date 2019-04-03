@@ -14,11 +14,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="Jacques Marneweck // www.siberia.co.za">
-    <meta name="copyright" content="2014-2019 Jacques Marneweck.  All rights strictly reserved.">
+    <meta name="author" content="Wayv Global Ltd // www.wayvglobal.com">
+    <meta name="copyright" content="2014-2019 Wayv Global Ltd and/or it's Licensors.  All rights strictly reserved.">
     <meta name="keywords" content="demo, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
-    <meta name="description" content="Demo Theme &mdash; Your Slogan Goes Here!">
-    <title>Demo Theme &mdash; Your Slogan Goes Here!</title>
+    <meta name="description" content="I AM Fintech &mdash; I AM Finance">
+    <title>I AM Fintech &mdash; I AM Finance!</title>
 {include file="_partials/header-bsfa.tpl" bootstrap_version="3.3.7"}
     <link href="/css/demo.css" rel="stylesheet">
 
@@ -80,11 +80,10 @@
 <div>
 
       <footer>
-        <p>&copy; 2014&mdash;2019 Demo Theme (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Demo Theme (Pty) Ltd is a juristic representative of FSP XXXX. Call Centre: 08610 XXXXX.
+        <p>&copy; 2014&mdash;2019 I AM Fintech (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  I AM Fintech (Pty) Ltd is an authorised FSP XXXX. Call Centre: 08610 XXXXX.
         </p>
 
         <p>
-          Hosted by our friends at <a href="https://kaizengarden.co/">Kaizen Garden</a>.  Made with &hearts; in Cape Town by <a href="http://www.siberia.co.za/">Siberia</a>.
         </p>
       </footer>
     </div>

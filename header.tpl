@@ -14,12 +14,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="Jacques Marneweck // www.siberia.co.za">
-    <meta name="copyright" content="2014-2019 Jacques Marneweck.  All rights strictly reserved.">
+    <meta name="author" content="Wayv Global Ltd // www.wayvglobal.com">
+    <meta name="copyright" content="2014-2019 I Am Fintech (Pty) Ltd and/or it's Licensors.  All rights strictly reserved.">
     <meta name="csrf-token" content="{$csrf_token}">
     <meta name="csrf-param" content="{$csrf_key}">
 
-    <title>Plutus Demo Theme &mdash; Your Monkier Goes Here &mdash; {$title}</title>
+    <title>I AM Fintech &mdash; I AM Finance &mdash; {$title}</title>
 {include file="_partials/header-bsfa.tpl" bootstrap_version="3.3.7"}
     <link href="/css/demo.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto" rel="stylesheet">
@@ -105,5 +105,5 @@
       <hr />
 
 {if $smarty.session.fica_status eq 0}
-    <div class="alert alert-info">Please provide a certified copy of your ID before you are able to start transacting on the Demo system.  Call centre: 0861 123 4567.</div>
+    <div class="alert alert-info">Please provide a certified copy of your ID before you are able to start transacting on the I AM Fintech system.  Call centre: 0861 046-6664.</div>
 {/if}
