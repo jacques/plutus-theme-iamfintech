@@ -56,9 +56,9 @@
         <input name="{$csrf_key}" type="hidden" value="{$csrf_token}" />
 
   <div class="form-group">
-    <label for="inputUsername3" class="col-sm-2 control-label">Username</label>
+    <label for="inputUsername" class="col-sm-2 control-label">Username</label>
     <div class="col-sm-10">
-      <input type="text" name="username" class="form-control" id="inputUsername3" placeholder="Username">
+      <input type="text" name="username" class="form-control" id="inputUsername" placeholder="Username">
     </div>
   </div>
   <div class="form-group">
@@ -74,16 +74,16 @@
   </div>
 </form>
 
-<p>
-  <a href="#">Mobile Login</a>
-</p>
-<div>
-
       <footer>
         <p>&copy; 2014&mdash;2019 I AM Fintech (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  I AM Fintech (Pty) Ltd is an authorised FSP XXXX. Call Centre: 08610 XXXXX.
         </p>
 
         <p>
+            Install the IAM App:
+        </p>
+
+        <p>
+          <a href="https://play.google.com/store/apps/details?id=com.voxnimbus.imogo"><img src="/images/googleplay.png" alt="Install the IAM app from the Google Play Store"></a>
         </p>
       </footer>
     </div>
