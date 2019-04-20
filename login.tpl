@@ -75,7 +75,7 @@
 </form>
 
       <footer>
-        <p>&copy; 2014&mdash;2019 I AM Fintech (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  I AM Fintech (Pty) Ltd is an authorised FSP XXXX. Call Centre: 08610 XXXXX.
+        <p>&copy; 2014&mdash;2019 I AM Fintech (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  I AM Fintech (Pty) Ltd is an authorised FSP 49157. Call Centre: 08610 XXXXX.
         </p>
 
         <p>
