@@ -26,6 +26,17 @@
     <link type="text/plain" rel="author" href="/humans.txt">
 
 {include file="_partials/header-shims.tpl"}
+{literal}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135086742-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135086742-2');
+</script>
+{/literal}
   </head>
   <body>
     <div class="container">
