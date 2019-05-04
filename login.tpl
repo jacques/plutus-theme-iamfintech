@@ -75,7 +75,7 @@
 </form>
 
       <footer>
-        <p>&copy; 2014&mdash;2019 Wayv Global Ltd and/or it's licensors.  All rights strictly reserved.  Wayv Global Limited is a company registered in England and Wales (No. 11157184). South Africa Subsidiary: I AM Fintech (Pty) Ltd is an authorised FSP 49157. Call Centre: 08610 XXXXX.
+        <p>&copy; 2014&mdash;2019 Wayv Global Ltd and/or it's licensors.  All rights strictly reserved.  Wayv Global Limited is a company registered in England and Wales (No. 11157184). South Africa Subsidiary: I AM Fintech (Pty) Ltd is an authorised FSP 49157. Call Centre: 021 201-6480.
         </p>
 
         <p>
