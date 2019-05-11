@@ -38,8 +38,8 @@
 {include file="_partials/csrf.tpl"}
   <div class="form-group">
     <textarea class="form-control" rows="10" readonly>
-I AM Fintech (Pty) Ltd is a juristic representative of Financial Service Provider:
-Please read and accept the terms and conditions of this agreement to continue with the registration of your new mobile wallet account. This agreement only applies to you if you use any of the following self-service channels offered by I AM Fintech (Pty) Ltd, with the registration number 2014/287136/07 residing at Allianz House, 1st Floor, 52 St. Georges Mall, Cape Town 8000, (“I AM”)
+I AM Fintech (Pty) Ltd is an authorised Financial Service Provider: 49157
+Please read and accept the terms and conditions of this agreement to continue with the registration of your new mobile wallet account. This agreement only applies to you if you use any of the following self-service channels offered by I AM Fintech (Pty) Ltd, with the registration number 2014/084368/07 residing at Allianz House, 1st Floor, 52 St. Georges Mall, Cape Town 8000, (“I AM”)
 The terms and conditions are subject to change and are available on the website at: https://www.imogo.co.za/terms
 The following agreement informs you of your rights and obligations when engaging with the company.
 1. Freedom Account Holder:
