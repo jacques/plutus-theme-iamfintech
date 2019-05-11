@@ -20,7 +20,7 @@
     <meta name="description" content="I AM Fintech &mdash; I AM Finance">
     <title>I AM Fintech &mdash; I AM Finance!</title>
 {include file="_partials/header-bsfa.tpl" bootstrap_version="3.3.7"}
-    <link href="/css/demo.css" rel="stylesheet">
+    <link href="/css/iamfintech.css" rel="stylesheet">
 
     <script type="text/javascript">
       (window.top == window.self) || (window.top.location.href = self.location.href);
