@@ -1,5 +1,20 @@
 # I Am Fintech theme for Plutus
 
+## Wayv Global Limited
+
+| Key         | Value.   |
+| ----------- | -------- |
+| Company Reg | 11157184 |
+| Phone       |          |
+
+## I Am Fintech (Pty) Ltd
+
+| Key         | Value        |
+| ----------- | ------------ |
+| Company Reg |              |
+| Phone       | 021 201-6480 |
+| FSP No.     | 49157        |
+
 At some point this will all be replaced by a single page app.
 
 | URL                         | Template                  | Notes                                                                             |
