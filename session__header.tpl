@@ -26,7 +26,7 @@
         <ul class="nav nav-pills pull-right">
           <li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
-        <h3 class="text-muted">I AM Fintech{*<img src="/images/demo.png" alt="I AM Fintech" height="75">*}</h3>
+        <h3 class="text-muted"><img src="/images/brands/iamfintech/iamfintech.png" height="100"></h3>
       </div>
 
       <hr />
