@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>I AM Fintech &mdash; I AM Finance &mdash; {$title}</title>
 {include file="_partials/header-bsfa.tpl"}
-    <link href="/css/demo.css" rel="stylesheet">
+    <link href="/css/iamfintech.css" rel="stylesheet">
 
 {include file="_partials/header-shims.tpl"}
   </head>
