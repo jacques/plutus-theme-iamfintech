@@ -95,6 +95,7 @@
 {if $smarty.session.show_autoload}
               <li><a href="/settings/autoload">Autoload Settings</a></li>
 {/if}
+              <li><a href="/settings/tfa">Two Factor Authentication</a></li>
             </ul>
           </li>
 {if $smarty.session.is_agent}
@@ -107,7 +108,7 @@
           <li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
 {if !(array_key_exists('brand', $smarty.session))}
-        <h3 class="text-muted">I AM Fintech</h3>
+        <h3 class="text-muted"><img src="/images/brands/iamfintech/iamfintech.png" height="50"></h3>
 {else}
         <h3 class="text-muted">&nbsp;</h3>
 {/if}
@@ -116,5 +117,5 @@
       <hr />
 
 {if $smarty.session.fica_status eq 0}
-    <div class="alert alert-info">Please provide a certified copy of your ID before you are able to start transacting on the I AM Fintech system.  Call centre: 0861 046-6664.</div>
+    <div class="alert alert-info">Please provide a certified copy of your ID before you are able to start transacting on the I AM Fintech system.  Call centre: 021 201-6480.</div>
 {/if}
