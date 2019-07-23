@@ -9,11 +9,11 @@
 
 ## I Am Fintech (Pty) Ltd
 
-| Key         | Value        |
-| ----------- | ------------ |
-| Company Reg |              |
-| Phone       | 021 201-6480 |
-| FSP No.     | 49157        |
+| Key         | Value          |
+| ----------- | -------------- |
+| Company Reg | 2014/084368/07 |
+| Phone       | 021 201-6480   |
+| FSP No.     | 49157          |
 
 At some point this will all be replaced by a single page app.
 
