@@ -19,7 +19,7 @@
     <meta name="keywords" content="demo, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="I AM Fintech &mdash; I AM Finance">
     <title>I AM Fintech &mdash; I AM Finance!</title>
-{include file="_partials/header-bsfa.tpl" bootstrap_version="3.3.7"}
+{include file="_partials/header-bsfa.tpl"}
     <link href="/css/iamfintech.css" rel="stylesheet">
 
     <script type="text/javascript">
