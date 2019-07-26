@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2017 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
  *}
 {include file="header.tpl" title="Purchase Prepaid Airtime" nav="prepaid"}
 
@@ -35,9 +35,11 @@
                   <option value="telkommobile">Telkom Mobile</option>
                   <option value="telkom">Telkom</option>
 {*                  <option value="neotel">Neotel</option>*}
+{*
 {if $diallercount > 0}
                   <option value="imogotel">BongoTel</option>
 {/if}
+*}
               </select>
           </div>
         </div>

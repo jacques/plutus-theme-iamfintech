@@ -14,18 +14,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>I AM Fintech &mdash; I AM Finance &mdash; Terms and Conditions</title>
-    <meta name="keywords" content="imogo, money, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders">
+    <meta name="keywords" content="iam, fintech, wayvglobal, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
 {include file="_partials/header-bsfa.tpl"}
-    <link href="/css/imogo.css" rel="stylesheet">
+    <link href="/css/iamfintech.css" rel="stylesheet">
 
 {include file="_partials/header-shims.tpl"}
-{include file="_partials/staging-ribbon.tpl" host="secure.imogo.co.za"}
   </head>
   <body>
 
     <div class="container">
       <div class="header">
-        <h3 class="text-muted signin-logo"><img src="/images/imogo.png" alt="I AM" height="200"></h3>
+        <h3 class="text-muted"><img src="/images/brands/iamfintech/iamfintech.png" height="100"></h3>
       </div>
 
       <div class="form-signin">
@@ -40,7 +39,7 @@
     <textarea class="form-control" rows="10" readonly>
 I AM Fintech (Pty) Ltd is an authorised Financial Service Provider: 49157
 Please read and accept the terms and conditions of this agreement to continue with the registration of your new mobile wallet account. This agreement only applies to you if you use any of the following self-service channels offered by I AM Fintech (Pty) Ltd, with the registration number 2014/084368/07 residing at Allianz House, 1st Floor, 52 St. Georges Mall, Cape Town 8000, (“I AM”)
-The terms and conditions are subject to change and are available on the website at: https://www.imogo.co.za/terms
+The terms and conditions are subject to change and are available on the website at: https://www.iamfin.com/terms
 The following agreement informs you of your rights and obligations when engaging with the company.
 1. Freedom Account Holder:
 a. You are an account holder if you are registered with an I AM Freedom account or have been authorised to use an I AM account. You, as an account holder or authorised user, are bound by the Terms and Conditions herein.
