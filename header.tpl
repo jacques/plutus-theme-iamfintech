@@ -15,6 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Wayv Global Ltd // www.wayvglobal.com">
+    <meta name="google-play-app" content="app-id=com.voxnimbus.imogo">
     <meta name="copyright" content="2014-2019 I Am Fintech (Pty) Ltd and/or it's Licensors.  All rights strictly reserved.">
     <meta name="csrf-token" content="{$csrf_token}">
     <meta name="csrf-param" content="{$csrf_key}">
@@ -74,8 +75,8 @@
 {if in_array($smarty.session.user_id, $globals.admins)}
           <li><a href="/agency"><i class="fa fa-pie-chart"></i> Agency</a></li>
 {/if}
-{if $globals.features.debitorders}
-              <li{if preg_match("!\/debitorders?.+!", $smarty.server.REQUEST_URI)} class="active"{/if}><a href="/debitorders">Debit Orders</a></li>
+{if $globals.features.company}
+              <li><a href="/companies"><i class="fa fa-fw fa-building"></i> Company Dashboard</a></li>
 {/if}
 {if $globals.features.payrolls}
               <li{if preg_match("!\/payrolls?.+!", $smarty.server.REQUEST_URI)} class="active"{/if}><a href="/payrolls">Payrolls</a></li>
