@@ -15,6 +15,8 @@
 | Phone       | 021 201-6480   |
 | FSP No.     | 49157          |
 
+Formerly trading as Money247.  Now trading as I AM.
+
 At some point this will all be replaced by a single page app.
 
 | URL                         | Template                  | Notes                                                                             |
@@ -23,10 +25,16 @@ At some point this will all be replaced by a single page app.
 | /accounts                   | accounts.tpl              | User dashboard that shows their accounts                                          |
 | /accounts/UUID/statements   | account__statements.tpl   | Shows the user the links for downloadable statements.                             |
 | /accounts/UUID/transactions | account__transactions.tpl | Shows the transactions that have occurred on an account.                          |
+| /beneficiaries              | beneficiaries.tpl         | Shows beneficiaries, pay beneficiaries, download POP for offnet transactions.     |
+| /beneficiaries              | beneficiaries__verify.tpl | Verify beneficiary payments page.                                                 |
+| /beneficiaries              | beneficiaries__paid.tpl   | Confirm beneficiaries paid page.                                                  |
+| /beneficiary/add            | beneficiary__add.tpl      | Add beneficiary page.                                                             |
+| /fees                       | fees.tpl                  | Fees charged.  Does not show FNB eWallet Pro fees as these are out of scope.      |
 | /howtodeposit               | howtodeposit.tpl          | How to deposit instructions                                                       |
 | /login                      | login.tpl                 | Login Page -- shown to users before they login                                    |
 | /prepaid/airtime            | prepaid__airtime.tpl      | Prepaid Airtime page -- used to show networks and vouchers available for purchase |
 | /prepaid/electricity        | prepaid__electricity.tpl  | Prepaid Electricity page -- used for starting the purchase of prepaid electricity |
+| /session                    | session.tpl               | Enter OTP Roadblock page for TFA.                                                 |
 | /settings                   | settings.tpl              | Change your password page.                                                        |
 | /settings/autoload          | settings__autoload.tpl    | Configures the users autoload settings.                                           |
 | /settings/tfa               | settings__tfa.tpl         | Two Factor Authentication settings                                                |
