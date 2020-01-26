@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2020 Jacques Marneweck.  All rights strictly reserved.
  *}
 <!DOCTYPE html>
 <html lang="en">
@@ -16,11 +16,26 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Wayv Global Ltd // www.wayvglobal.com">
     <meta name="copyright" content="2014-2019 Wayv Global Ltd and/or it's Licensors.  All rights strictly reserved.">
+    <meta name="google-play-app" content="app-id=com.voxnimbus.imogo">
     <meta name="keywords" content="iam, fintech, wayvglobal, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="I AM Fintech &mdash; I AM Finance">
     <title>I AM Fintech &mdash; I AM Finance!</title>
 {include file="_partials/header-bsfa.tpl"}
     <link href="/css/iamfintech.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/fingerprintjs2@2.1.0/dist/fingerprint2.min.js"></script>
+    <script src="https://unpkg.com/smartbanner.js@1.13.0/dist/smartbanner.min.js"></script>
+    <link href="https://unpkg.com/smartbanner.js@1.13.0/dist/smartbanner.min.css" rel="stylesheet">
+
+    <meta name="smartbanner:title" content="I AM APP">
+    <meta name="smartbanner:author" content="Wayv Global Ltd">
+    <meta name="smartbanner:price" content="FREE">
+    <meta name="smartbanner:price-suffix-google" content=" - In Google Play">
+      <meta name="smartbanner:icon-google" content="http://lh3.ggpht.com/f4oX61ljZ6x8aYDELZOgxlvdUEu73-wSQ4fy5bx6fCRISnZP8T353wdaM43RO_DbGg=w300">
+  <meta name="smartbanner:button" content="View">
+
+<meta name="smartbanner:button-url-google" content="https://play.google.com/store">
+    <meta name="smartbanner:enabled-platforms" content="android">
 
     <script type="text/javascript">
       (window.top == window.self) || (window.top.location.href = self.location.href);
@@ -54,6 +69,7 @@
       <form accept-charset="UTF-8" method="post" autocomplete="off" class="form-horizontal" role="form">
         <input name="utf8" type="hidden" value="&#x2713;" />
         <input name="{$csrf_key}" type="hidden" value="{$csrf_token}" />
+        <input name="fingerprint" type="hidden" value="" />
 
   <div class="form-group">
     <label for="inputUsername" class="col-sm-2 control-label">Username</label>
@@ -75,7 +91,7 @@
 </form>
 
       <footer>
-        <p>&copy; 2014&mdash;2019 Wayv Global Ltd and/or it's licensors.  All rights strictly reserved.  Wayv Global Limited is a company registered in England and Wales (No. 11157184). South Africa Subsidiary: I AM Fintech (Pty) Ltd is an authorised FSP 49157. Call Centre: 021 201-6480.
+        <p>&copy; 2014&mdash;2020 Wayv Global Ltd and/or it's licensors.  All rights strictly reserved.  Wayv Global Limited is a company registered in England and Wales (No. 11157184). South Africa Subsidiary: I AM Fintech (Pty) Ltd is an authorised FSP 49157. Call Centre: 021 201-6480.
         </p>
 
         <p>
@@ -95,6 +111,24 @@
 $(function(){
     $('[name="username"]').focus();
 });
+
+if (window.requestIdleCallback) {
+    requestIdleCallback(function () {
+        Fingerprint2.get(function (components) {
+          var values = components.map(function (component) { return component.value })
+          var murmur = Fingerprint2.x64hash128(values.join(''), 31)
+          $("input[name='fingerprint']").val(murmur);
+        })
+    })
+} else {
+    setTimeout(function () {
+        Fingerprint2.get(function (components) {
+          var values = components.map(function (component) { return component.value })
+          var murmur = Fingerprint2.x64hash128(values.join(''), 31)
+          $("input[name='fingerprint']").val(murmur);
+        })
+    }, 500)
+}
 {/literal}
 </script>
   </body>
