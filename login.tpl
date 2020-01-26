@@ -15,13 +15,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Wayv Global Ltd // www.wayvglobal.com">
-    <meta name="copyright" content="2014-2019 Wayv Global Ltd and/or it's Licensors.  All rights strictly reserved.">
+    <meta name="copyright" content="2014-2020 Wayv Global Ltd and/or it's Licensors.  All rights strictly reserved.">
     <meta name="google-play-app" content="app-id=com.voxnimbus.imogo">
     <meta name="keywords" content="iam, fintech, wayvglobal, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="I AM Fintech &mdash; I AM Finance">
     <title>I AM Fintech &mdash; I AM Finance!</title>
 {include file="_partials/header-bsfa.tpl"}
     <link href="/css/iamfintech.css" rel="stylesheet">
+
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    <link rel="dns-prefetch" href="https://tools.siberia.co.za">
+    <link rel="dns-prefetch" href="https://play.google.com">
+    <link rel="dns-prefetch" href="https://oss.maxcdn.com">
+    <link ref="dns-prefetch" href="https://fonts.google.com">
 
     <script src="https://unpkg.com/fingerprintjs2@2.1.0/dist/fingerprint2.min.js"></script>
     <script src="https://unpkg.com/smartbanner.js@1.13.0/dist/smartbanner.min.js"></script>
