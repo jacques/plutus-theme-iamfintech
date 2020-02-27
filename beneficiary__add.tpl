@@ -58,13 +58,13 @@
   <div class="form-group">
     <label for="inputAccount Number3" class="col-sm-2 control-label">Account Number</label>
     <div class="col-sm-10">
-      <input type="text" name="account_number" class="form-control" id="inputAccountNumber" placeholder="Account Number"{if isset($account_number)} value="{$account_number|escape}"{/if}>
+      <input type="text" pattern="[0-9]*" inputmode="numeric" spellcheck="false" name="account_number" class="form-control" id="inputAccountNumber" placeholder="Account Number"{if isset($account_number)} value="{$account_number|escape}"{/if}>
     </div>
   </div>
   <div class="form-group">
     <label for="inputBranchCode" class="col-sm-2 control-label">Branch Code</label>
     <div class="col-sm-10">
-      <input type="text" name="branch_code" class="form-control" id="inputBranchCode" placeholder="Branch Code"{if isset($branch_code)} value="{$branch_code|escape}"{/if}>
+      <input type="text" pattern="[0-9]*" inputmode="numeric" spellcheck="false" name="branch_code" class="form-control" id="inputBranchCode" placeholder="Branch Code"{if isset($branch_code)} value="{$branch_code|escape}"{/if}>
     </div>
   </div>
   <div class="form-group">
