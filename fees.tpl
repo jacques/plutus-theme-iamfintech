@@ -31,8 +31,8 @@
       <td>ZAR 1.10 (note if offnet recipient the EFT OUT fee also applies)</td>
     </tr>
     <tr>
-      <td>EFT In</td>
-      <td>ZAR 0.90</td>
+      <td>Monthly EFT In Fee</td>
+      <td>ZAR 10 (once a month where you receive an EFT In transaction)</td>
     </tr>
     <tr>
       <td>EFT Out</td>
