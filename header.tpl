@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2020 Jacques Marneweck.  All rights strictly reserved.
  *}
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Wayv Global Ltd // www.wayvglobal.com">
     <meta name="google-play-app" content="app-id=com.voxnimbus.imogo">
-    <meta name="copyright" content="2014-2019 I Am Fintech (Pty) Ltd and/or it's Licensors.  All rights strictly reserved.">
+    <meta name="copyright" content="2014-2020 I Am Fintech (Pty) Ltd and/or it's Licensors.  All rights strictly reserved.">
     <meta name="csrf-token" content="{$csrf_token}">
     <meta name="csrf-param" content="{$csrf_key}">
 

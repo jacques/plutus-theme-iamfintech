@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="Wayv Global Ltd // www.wayvglobal.com">
+    <meta name="author" content="Transaction Africa Platform (Pty) Ltd // www.transactionafrica.co.za">
     <meta name="copyright" content="2014-2020 Wayv Global Ltd and/or it's Licensors.  All rights strictly reserved.">
     <meta name="google-play-app" content="app-id=com.voxnimbus.imogo">
     <meta name="keywords" content="iam, fintech, wayvglobal, money, wallet, account, money247, iamfin, iamfintech, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
@@ -22,6 +22,26 @@
     <title>I AM Fintech &mdash; I AM Finance!</title>
 {include file="_partials/header-bsfa.tpl"}
     <link href="/css/iamfintech.css" rel="stylesheet">
+    <link href="/css/hellobar.css" rel="stylesheet">
+	<script type="application/ld+json">
+		[{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"url": "http://www.iamfin.com",
+			"logo": "https://www.flickr.com/images/opensearch-flickr-logo.png"
+		},
+		{
+			"@context": "http://schema.org",
+			"@type": "Person",
+			"name": "I Am Fintech",
+			"url": "https://www.iamfin.com",
+			"sameAs": [
+				"https://secure.iamfin.com",
+				"https://www.iamfintech.co.za",
+				"https://secure.iamfintech.co.za"
+			]
+		}]
+	</script>
 
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://unpkg.com">
@@ -62,6 +82,12 @@
 {/literal}
   </head>
   <body>
+    <div class="hellobar alert-danger">
+      <p>
+        <strong>COVID19 INFO</strong> 
+        <a href="https://sacoronavirus.co.za/" rel="noopener norefer">available from the South African Government</a>.
+      </p>
+    </div>
 
     <div class="container">
       <div class="header">
