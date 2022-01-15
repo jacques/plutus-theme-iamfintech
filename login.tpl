@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2020 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2022 Jacques Marneweck.  All rights strictly reserved.
  *}
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Transaction Africa Platform (Pty) Ltd // www.transactionafrica.co.za">
-    <meta name="copyright" content="2014-2020 Wayv Global Ltd and/or it's Licensors.  All rights strictly reserved.">
+    <meta name="copyright" content="2014-2022 Wayv Global Ltd and/or it's Licensors.  All rights strictly reserved.">
     <meta name="google-play-app" content="app-id=com.voxnimbus.imogo">
     <meta name="keywords" content="iam, fintech, wayvglobal, money, wallet, account, money247, iamfin, iamfintech, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="I AM Fintech &mdash; I AM Finance">
@@ -124,7 +124,7 @@
 </form>
 
       <footer>
-        <p>&copy; 2014&mdash;2020 Wayv Global Ltd and/or it's licensors.  All rights strictly reserved.  Wayv Global Limited is a company registered in England and Wales (No. 11157184). South Africa Subsidiary: I AM Fintech (Pty) Ltd is an authorised FSP 49157. Call Centre: 021 201-6480.
+        <p>&copy; 2014&mdash;2022 Wayv Global Ltd and/or it's licensors.  All rights strictly reserved.  Wayv Global Limited is a company registered in England and Wales (No. 11157184). South Africa Subsidiary: I AM Fintech (Pty) Ltd is an authorised FSP 49157. Call Centre: 021 201-6480.
         </p>
 
         <p>
