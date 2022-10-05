@@ -82,13 +82,14 @@
 {/literal}
   </head>
   <body>
+{if isset($showhellobar)}
     <div class="hellobar alert-danger">
       <p>
         <strong>COVID19 INFO</strong> 
         <a href="https://sacoronavirus.co.za/" rel="noopener norefer">available from the South African Government</a>.
       </p>
     </div>
-
+{/if}
     <div class="container">
       <div class="header">
         <h3 class="text-muted signin-logo"><img src="/images/brands/iamfintech/iamfintech.png" height="100"></h3>
