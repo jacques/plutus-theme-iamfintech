@@ -20,7 +20,7 @@
     <meta name="keywords" content="iam, fintech, wayvglobal, money, wallet, account, money247, iamfin, iamfintech, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="I AM Fintech &mdash; I AM Finance">
     <title>I AM Fintech &mdash; I AM Finance!</title>
-{include file="_partials/header-bsfa.tpl"}
+{include file="_partials/header-bsfa.tpl" bootstrap_version="3.4.1"}
     <link href="/css/iamfintech.css" rel="stylesheet">
     <link href="/css/hellobar.css" rel="stylesheet">
 	<script type="application/ld+json">
@@ -138,7 +138,7 @@
       </footer>
     </div>
 
-{include file="_partials/footer-jqbs.tpl" bootstrap_version="3.3.7"}
+{include file="_partials/footer-jqbs.tpl" bootstrap_version="3.4.1" bootstrap_js_version="3.4.1"}
     <script src="/vendor/jquery-ujs/src/rails.js"></script>
 {literal}
 <script>

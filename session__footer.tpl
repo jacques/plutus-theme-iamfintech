@@ -7,7 +7,7 @@
  *
  * Copyright 2014-2022 Jacques Marneweck.  All rights strictly reserved.
  *}
-{include file="_partials/footer-jqbs.tpl"}
+{include file="_partials/footer-jqbs.tpl" bootstrap_version="3.4.1" bootstrap_js_version="3.4.1"}
 
     <div class="container">
       <footer>

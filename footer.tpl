@@ -5,19 +5,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2022 Jacques Marneweck.  All rights strictly reserved.
  *}
   <div class="container hidden-print">
     Signed in as <strong>{$smarty.session.first_name} {$smarty.session.last_name}</strong>.
   </div>
 
-{if $usecdn}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-{else}
-  <script src="/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-{/if}
+{include file="_partials/footer-jqbs.tpl" bootstrap_version="3.4.1" bootstrap_js_version="3.4.1"}
   <script src="/vendor/jquery-ujs/src/rails.js"></script>
   <script src="/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
   <script src="/js/platform.js"></script>

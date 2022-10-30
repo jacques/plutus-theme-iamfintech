@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2019 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2022 Jacques Marneweck.  All rights strictly reserved.
  *}
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="iam, fintech, wayvglobal, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <title>I AM Fintech &mdash; I AM Finance &mdash; {$title}</title>
-{include file="_partials/header-bsfa.tpl"}
+{include file="_partials/header-bsfa.tpl" bootstrap_version="3.4.1"}
     <link href="/css/iamfintech.css" rel="stylesheet">
 
 {include file="_partials/header-shims.tpl"}
