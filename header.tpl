@@ -27,6 +27,15 @@
     <link type="text/plain" rel="author" href="/humans.txt">
 
 {include file="_partials/header-shims.tpl"}
+<script>
+{literal}
+if (window.trustedTypes && window.trustedTypes.createPolicy) {
+  window.trustedTypes.createPolicy('default', {
+    createHTML: (string, sink) => string
+  });
+}
+{/literal}
+</script>
 {literal}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135086742-2"></script>

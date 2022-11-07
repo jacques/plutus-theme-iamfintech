@@ -43,6 +43,16 @@
 		}]
 	</script>
 
+    <script>
+{literal}
+if (window.trustedTypes && window.trustedTypes.createPolicy) {
+  window.trustedTypes.createPolicy('default', {
+    createHTML: (string, sink) => string
+  });
+}
+{/literal}
+</script>
+
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://unpkg.com">
     <link rel="dns-prefetch" href="https://tools.siberia.co.za">
